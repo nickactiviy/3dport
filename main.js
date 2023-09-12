@@ -317,7 +317,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0x171f27, flatShading: true }),
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
-    const titleGeo = new TextGeometry('SUSHIL THAPA', {
+    const titleGeo = new TextGeometry('NICKDEV', {
       font: font,
       size: 0.08,
       height: 0.01,
@@ -334,7 +334,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Web Designer / Developer / Content Creator',
+      'Web Designer / Developer / Programmer',
       {
         font: font,
         size: 0.018,
